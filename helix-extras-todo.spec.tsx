@@ -20,7 +20,7 @@ describe('helix-extras-todo', () => {
       shadowRoot = page.root.shadowRoot;
     });
 
-    it('should be able to set day class', async () => {
+    it('should submit form', async () => {
       shadowRoot.querySelectorAll('.todo_new').click();
       await page.waitForChanges();
     });
